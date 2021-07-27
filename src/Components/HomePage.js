@@ -1,10 +1,10 @@
 import React from 'react'
-import NavBarPart from './NavBarPart'
+import Header from './Header'
 
 function HomePage() {
     return (
         <div>
-            <NavBarPart/>
+            <Header/>
         </div>
     )
 }

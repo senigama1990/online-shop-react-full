@@ -1,13 +1,22 @@
 /* NavBar Start */
+* {
+  padding: 0;
+  margin: 0;
+}
 .navBarContainer {
   background-color: #fff;
 }
 .navBarWrapper {
-  position: sticky;
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 60px;
+  padding: 15px 60px;
+  background-color: #fff;
+  z-index: 1000;
+  width: 90%;
+  overflow: hidden;
 }
 .navBarItems {
   display: flex;
@@ -53,10 +62,14 @@
 }
 
 .navBarDownPart {
+  position: relative;
+  top: 88px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 60px;
+  background-color: #fff;
+  z-index: 5;
 }
 .menuBarWrapper {
   margin-right: 20px;
@@ -107,6 +120,101 @@
 /* NavBar Finish */
 
 /* Header Slider Start */
-
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-y: hidden;
+}
+.headerTextContent, .headerImageContent {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.headerTextContent {
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}
+.headerTextContentWrapper {
+  width: 500px;
+}
+.headerTextContentWrapper h3 {
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #5E5E5E;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.headerTextContentWrapper h1 {
+  font-style: italic;
+  font-size: 52px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.headerTextContentWrapper p {
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #5E5E5E;
+  margin-bottom: 20px;
+}
+.headerTextContentWrapper a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 600;
+}
+.headerTextContentWrapper hr {
+  width: 75px;
+  margin-top: 10px;
+  height: 3px;
+  background-color: #000;
+}
+.headerImageContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgCircle {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  background-color: #f1f1f1;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgImage {
+  background-image: url(./imgs/home_03_slide_1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 400px;
+  height: 400px;
+}
+.headerTextContentBtnBox {
+  position: absolute;
+  bottom: -50px;
+  left: 49%;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerTextContentBtnBox button {
+  padding: 5px;
+  border-radius: 50%;
+  border: solid 1px #5E5E5E;
+  cursor: pointer;
+}
+.headerTextContentBtnBox button:nth-child(1) {
+  background-color: #000;
+}
 /* Header Slider Finish */
 
