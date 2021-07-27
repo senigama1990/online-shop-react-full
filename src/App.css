@@ -1,0 +1,112 @@
+/* NavBar Start */
+.navBarContainer {
+  background-color: #fff;
+}
+.navBarWrapper {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+.navBarItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+.navBarItems li {
+  margin-right: 20px;
+}
+.navBarItems li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+.navBarItems li a span {
+  display: inline-block;
+  margin-right: 5px;
+}
+.navBarItems li a .navItemsIcon {
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.navIconsWrapper {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.navIconsWrapper button {
+  background-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.navIconsWrapper span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navBarDownPart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+}
+.menuBarWrapper {
+  margin-right: 20px;
+}
+.menuBarWrapper button {
+  background-color: #000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+  padding: 12px 55px;
+  display: flex;
+  align-items: center;
+}
+.menuBarWrapper button img {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navBarInputWrapper input {
+  padding: 14px;
+  font-size: 18px;
+  width: 42vw;
+}
+.navBarInputWrapper a {
+  border: solid rgba(0,0,0,0.2) 1px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  padding: 14px 50px;
+}
+.navBarInputWrapper a span {
+  display: inline-block;
+  margin-right: 10px;
+}
+.navBarInputWrapper button {
+  background-color: #000;
+  color: #fff;
+  padding: 14px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* NavBar Finish */
+
+/* Header Slider Start */
+
+/* Header Slider Finish */
+
