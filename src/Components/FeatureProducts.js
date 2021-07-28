@@ -10,68 +10,67 @@ function FeatureProducts() {
         <div>
             <div className='featuredPartWrapper'>
                 <h1>Featured Products</h1>
-                <div className='featuredPartContent'>
-                    <div className="featuredMainPart">
-                        <div className='VRglassesWr'>
-                            <div className='VRglasses'>
-                                <div className='VRglassesSale sale'>
+                <div className='featuredBox'>
+                    <div className='featuredBoxLeft'>
+                        <div className='VRglasses'>
+                            <div className='VRglassesSale sale'>
+                                <span>-4%</span>
+                            </div>
+                            <div className="VRglassesImage">
+                                <img src={VRglasses} alt="VRglasses" />
+                            </div>
+                            <div className='VRglassesPrice'>
+                                <p>Game Controller</p>
+                                <span>$390.00</span>
+                                <span>$375.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="featuredBoxRight">                        
+                        <div className='featuredBoxRighttop'>
+                            <div className='keyboard box'>
+                                <div className='keyboardSale sale'>
                                     <span>-4%</span>
                                 </div>
-                                <div className="VRglassesImage">
-                                    <img src={VRglasses} alt="VRglasses" />
+                                <div className="keyboardImage">
+                                    <img src={keyboard} alt="keyboard" />
                                 </div>
-                                <div className='VRglassesPrice'>
-                                    <p>Game Controller</p>
-                                    <span>$390.00</span>
+                                <div className='keyboardPrice price'>
+                                    <p>Keyboard</p>
+                                    <span className='keySale'>$390.00</span>
                                     <span>$375.00</span>
                                 </div>
                             </div>
-                        </div>
-                        <div className='vrbox'>
-                            <div className='vrtop'>
-                                <div className='VRglassesSecond'>
-                                    <div className='keyboard box'>
-                                        <div className='keyboardSale sale'>
-                                            <span>-4%</span>
-                                        </div>
-                                        <div className="keyboardImage">
-                                            <img src={keyboard} alt="keyboard" />
-                                        </div>
-                                        <div className='keyboardPrice'>
-                                            <p>Keyboard</p>
-                                            <span>$390.00</span>
-                                            <span>$375.00</span>
-                                        </div>
-                                    </div>
-                                    <div className='speaker box'>
-                                        <div className="speakerImage">
-                                            <img src={speaker} alt="speaker" />
-                                        </div>
-                                        <div className='speakerPrice'>
-                                            <p>Speakerr</p>
-                                            <span>$80.00</span>
-                                        </div>
-                                    </div>
+
+                            <div className='speaker box'>
+                                <div className="speakerImage">
+                                    <img src={speaker} alt="speaker" />
+                                </div>
+                                <div className='speakerPrice price'>
+                                    <p>Speakerr</p>
+                                    <span>$80.00</span>
                                 </div>
                             </div>
-                            <div className='Vrthird'>
-                                <div className='headphone box'>
-                                    <div className="headphoneImage">
-                                        <img src={headphone} alt="headphone" />
-                                    </div>
-                                    <div className='headphonePrice'>
-                                        <p>Headphone</p>
-                                        <span>$35.00</span>
-                                    </div>
+                        </div>
+
+                        <div className='featuredBoxRightBottom'>
+                            <div className='headphone box'>
+                                <div className="headphoneImage">
+                                    <img src={headphone} alt="headphone" />
                                 </div>
-                                <div className='ultraLense box'>
-                                    <div className="ultraLenseImage">
-                                        <img src={lens} alt="lens" />
-                                    </div>
-                                    <div className='ultraLensePrice'>
-                                        <p>Ultra Lense</p>
-                                        <span>$630.00</span>
-                                    </div>
+                                <div className='headphonePrice price'>
+                                    <p>Headphone</p>
+                                    <span>$35.00</span>
+                                </div>
+                            </div>
+
+                            <div className='ultraLense box'>
+                                <div className="ultraLenseImage">
+                                    <img src={lens} alt="lens" />
+                                </div>
+                                <div className='ultraLensePrice price'>
+                                    <p>Ultra Lense</p>
+                                    <span>$630.00</span>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +78,7 @@ function FeatureProducts() {
                 </div>
 
 
-
+                
                 <div className="featuredMainPart2">
                     <div className='blueTooth'>
                         <div className="blueToothImage"></div>
@@ -113,8 +112,7 @@ function FeatureProducts() {
                         </div>
                     </div>
                 </div>
-
-            </div>
+            </div>            
         </div>
         
     )
