@@ -4,6 +4,10 @@ import keyboard from '../imgs/keyboard.jpg'
 import speaker from '../imgs/bluetooth_speaker-360x432.jpg'
 import headphone from '../imgs/p_5-111-360x432.jpg'
 import lens from '../imgs/l-360x432.jpg'
+import blutoothSpeaker from '../imgs/electronics_2-360x432.jpg'
+import gadgetsCollection from '../imgs/p_11-360x432.jpg'
+import smartWatch from '../imgs/p_4-1-360x432.jpg'
+import graphicCard from '../imgs/card-360x432.jpg'
 
 function FeatureProducts() {
     return (
@@ -80,33 +84,41 @@ function FeatureProducts() {
 
                 
                 <div className="featuredMainPart2">
-                    <div className='blueTooth'>
-                        <div className="blueToothImage"></div>
-                        <div className='blueToothPrice'>
+                    <div className='blueTooth box2'>
+                        <div className="blueToothImage">
+                            <img src={blutoothSpeaker} alt="blutoothSpeaker" />
+                        </div>
+                        <div className='blueToothPrice price2'>
                             <p>Blurtooth</p>
                             <span>$90.00</span>
                         </div>
                     </div>
-                    <div className='gadgetsCollection'>
+                    <div className='gadgetsCollection box2'>
                         <div className='gadgetsCollectionSale sale'>
                             <span>0%</span>
                         </div>
-                        <div className="gadgetsCollectionImage"></div>
-                        <div className='gadgetsCollectionPrice'>
+                        <div className="gadgetsCollectionImage">
+                            <img src={gadgetsCollection} alt="gadgetsCollection" />
+                        </div>
+                        <div className='gadgetsCollectionPrice price2'>
                             <p>Gadgets Collection</p>
                             <span>$35.00 - $375.00</span>
                         </div>
                     </div>
-                    <div className='hobbyistWatch'>
-                        <div className="hobbyistWatchImage"></div>
-                        <div className='hobbyistWatchPrice'>
+                    <div className='hobbyistWatch box2'>
+                        <div className="hobbyistWatchImage">
+                            <img src={smartWatch} alt="smartWatch" />
+                        </div>
+                        <div className='hobbyistWatchPrice price2'>
                             <p>Hobbyist Watch</p>
                             <span>$160.00</span>
                         </div>
                     </div>
-                    <div className='graphicsCArd'>
-                        <div className="graphicsCArdImage"></div>
-                        <div className='graphicsCArdPrice'>
+                    <div className='graphicsCArd box2'>
+                        <div className="graphicsCArdImage">
+                            <img src={graphicCard} alt="graphicCard" />
+                        </div>
+                        <div className='graphicsCArdPrice price2'>
                             <p>Graphics CArd</p>
                             <span>$180.00</span>
                         </div>
