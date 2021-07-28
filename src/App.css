@@ -15,7 +15,7 @@
   padding: 15px 60px;
   background-color: #fff;
   z-index: 1000;
-  width: 90%;
+  width: 93%;
   overflow: hidden;
 }
 .navBarItems {
@@ -128,6 +128,7 @@
   align-items: center;
   justify-content: space-between;
   overflow-y: hidden;
+  margin-bottom: 25px;
 }
 .headerTextContent, .headerImageContent {
   width: 100%;
@@ -217,4 +218,91 @@
   background-color: #000;
 }
 /* Header Slider Finish */
+
+/* Under header part start */
+.partWrapper {
+  width: 95%;
+  padding: 15px 60px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.leftPart, .rightPart {
+  width: 47%;
+  background-color: #f8f8f8;
+  padding: 15px 15px 0 15px;
+}
+.leftPartTextWrapper h2 {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.leftPartTextWrapper p {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  color: #5E5E5E;
+}
+.leftPartTextWrapper hr {
+  width: 50px;
+  height: 2px;
+  background-color: #000;
+  margin-top: 10px;
+}
+.leftPartImageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftPartImage {
+  width: 90%;
+  text-align: center;
+  height: 200px;
+  background-image: url(./imgs/443.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rightPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rightPartImage {
+  width: 60%;
+  height: 285px;
+}
+.rightPartImage {
+  background-image: url(./imgs/444.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.rightPartTextWrapper {
+  width: 40%;
+  margin-top: 115px;
+}
+.rightPartTextWrapper h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+.rightPartTextWrapper p {
+  color: #5E5E5E;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+.rightPartTextWrapper hr {
+  width: 50px;
+  height: 2px;
+  background-color: #000;
+}
+/* Under header part finish */
+
 
