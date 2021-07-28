@@ -1,4 +1,5 @@
 import React from 'react'
+import FeatureProducts from './FeatureProducts'
 import Header from './Header'
 import UnderHeaderPart from './UnderHeaderPart'
 
@@ -6,7 +7,8 @@ function HomePage() {
     return (
         <div>
             <Header />
-            <UnderHeaderPart/>
+            <UnderHeaderPart />
+            <FeatureProducts/>
         </div>
     )
 }
