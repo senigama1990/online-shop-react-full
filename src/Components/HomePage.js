@@ -1,4 +1,5 @@
 import React from 'react'
+import PreLastPart from '../PreLastPart'
 import FeatureProducts from './FeatureProducts'
 import Header from './Header'
 import Inspirational from './Inspirational'
@@ -12,7 +13,8 @@ function HomePage() {
             <UnderHeaderPart />
             <FeatureProducts />
             <SignUpNewsLetter />
-            <Inspirational/>
+            <Inspirational />
+            <PreLastPart/>
         </div>
     )
 }

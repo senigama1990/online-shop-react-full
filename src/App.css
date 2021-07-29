@@ -16,7 +16,7 @@
   padding: 15px 60px;
   background-color: #fff;
   z-index: 1000;
-  width: 93%;
+  width: 100%;
   overflow: hidden;
 }
 .navBarItems {
@@ -221,8 +221,9 @@
 /* Header Slider Finish */
 
 /* Under header part start */
+/* Under header part start */
 .partWrapper {
-  width: 100%;
+  width: 100vw;
   padding: 15px 60px;
   height: auto;
   display: flex;
@@ -328,7 +329,7 @@
   height: 749px;
 }
 .featuredBoxRight {
-  width: 100%;
+  width: 100vw;
 }
 .featuredBoxRighttop, .featuredBoxRightBottom {
   display: flex;
@@ -415,7 +416,7 @@
 
 /* Start signUp part */
 .signUpWrapper {
-  width: 100%;
+  width: 100vw;
   background-color: #f8f8f8;
   padding: 100px;
   margin-bottom: 50px;
@@ -457,8 +458,8 @@
 /* Start Inspirational post part */
 .inspirationalWrapper {
   padding: 15px 60px;
-  width: 100%;
-  margin-bottom: 50px;
+  width: 100vw;
+  margin-bottom: 100px;
 }
 .inspirationalWrapper>h2 {
   text-align: center;
@@ -510,5 +511,42 @@
 }
 /* Finish Inspirational post part */
 
-
-
+/*PreLast part start*/
+.preLastPartWrapper {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+}
+.preLastPartWrapper>img {
+  width: 13%;  
+}
+.preLastPartInsta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  border: solid 1px #fff;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  transform: translate(-50%);
+}
+.preLastPartInsta a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  width: 100%;
+  height: 100%;
+  padding: 15px 40px;
+}
+.preLastPartInsta img {
+  height: 20px;
+  width: 20px;
+}
+/*PreLast part finish*/
