@@ -2,6 +2,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 .navBarContainer {
   background-color: #fff;
@@ -221,7 +222,7 @@
 
 /* Under header part start */
 .partWrapper {
-  width: 95%;
+  width: 100%;
   padding: 15px 60px;
   height: auto;
   display: flex;
@@ -258,7 +259,7 @@
   align-items: center;
 }
 .leftPartImage {
-  width: 90%;
+  width: 100%;
   text-align: center;
   height: 200px;
   background-image: url(./imgs/443.png);
@@ -311,8 +312,8 @@
   margin-bottom: 50px;
 }
 .featuredPartWrapper {
-  /* margin-bottom: 10px; */
   padding: 15px 60px;
+  width: 100vw;
 }
 .featuredBox {
   display: flex;
@@ -324,22 +325,21 @@
   margin-right: 20px;
 }
 .VRglasses img {
-  width: 500px;
-  height: 750px;
+  height: 749px;
 }
 .featuredBoxRight {
   width: 100%;
 }
 .featuredBoxRighttop, .featuredBoxRightBottom {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 
 .featuredBoxRighttop > .keyboard, .speaker,
 .featuredBoxRightBottom > .headphone, .ultraLense {
   background-color: #f8f8f8;
-  width: 285px;
+  width: 315px;
   padding: 15px;
   height: 100%;
 }
@@ -351,7 +351,7 @@
   width: 285px;
 }
 .speaker {
-  height: 436px;
+  height: 100%;
 }
 .keyboardImage, .speakerImage, .headphoneImage, .ultraLenseImage {
   display: flex;
@@ -385,8 +385,6 @@
   text-decoration: line-through;
   font-weight: 400!important;
 }
-
-
 .price, .price2 {
   padding: 5px;
 }
@@ -400,14 +398,14 @@
   margin-top: 31px;
 }
 .featuredMainPart2 {
-  width: 90vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
 }
 .box2 {
   background-color: #f8f8f8;
-  width: 250px;
+  width: 300px;
   padding: 10px;
 }
 .box2 img {
@@ -417,7 +415,7 @@
 
 /* Start signUp part */
 .signUpWrapper {
-  width: 95vw;
+  width: 100%;
   background-color: #f8f8f8;
   padding: 100px;
   margin-bottom: 50px;
@@ -455,5 +453,62 @@
   cursor: pointer;
 }
 /* Finish signUp part */
+
+/* Start Inspirational post part */
+.inspirationalWrapper {
+  padding: 15px 60px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.inspirationalWrapper>h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.inspirationalBox ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.inspirationalBox ul li {
+  width: 32%;
+}
+.inspirationalImg {
+  position: relative;
+  margin-bottom: 25px;
+}
+.inspirationalImg img {
+  width: 100%;
+}
+.inspirationalMark {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 15px 22px;
+  bottom: 7%;
+  left: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inspirationalMark span:nth-child(1) {
+  display: block;
+}
+.inspirationalMark span:nth-child(2) {
+  font-weight: 700;
+}
+.inspirationalList p {
+  color: #5E5E5E;
+  font-size: 16px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+.inspirationalList h3 {
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+/* Finish Inspirational post part */
+
 
 

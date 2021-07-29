@@ -1,6 +1,7 @@
 import React from 'react'
 import FeatureProducts from './FeatureProducts'
 import Header from './Header'
+import Inspirational from './Inspirational'
 import SignUpNewsLetter from './SignUpNewsLetter'
 import UnderHeaderPart from './UnderHeaderPart'
 
@@ -10,7 +11,8 @@ function HomePage() {
             <Header />
             <UnderHeaderPart />
             <FeatureProducts />
-            <SignUpNewsLetter/>
+            <SignUpNewsLetter />
+            <Inspirational/>
         </div>
     )
 }
