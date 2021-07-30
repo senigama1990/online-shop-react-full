@@ -22,6 +22,10 @@ ul {
   width: 100%;
   overflow: hidden;
 }
+.navBarWrapper div a img {
+  height: 60px;
+  width: 200px;
+}
 .navBarItems {
   display: flex;
   align-items: center;
@@ -579,6 +583,9 @@ ul {
   height: 4px;
   background-color: #fff;
   margin-bottom: 25px;
+}
+.footerLogo a img {
+  width: 300px;
 }
 .footerLogo span {
   display: inline-block;

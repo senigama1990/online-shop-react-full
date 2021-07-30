@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import {faAngleDown, faSearch, faUser, faCartArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import logo from '../imgs/logo-dark.png'
+import logo from '../imgs/logo-light-removebg-preview.png'
 import menuBar from '../imgs/menubar.png'
 
 

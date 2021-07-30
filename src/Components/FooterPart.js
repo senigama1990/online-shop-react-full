@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logoLight from '../imgs/logo-light.png'
+import logoLight from '../imgs/logo-dark-removebg-preview.png'
 import { faMapMarkedAlt, faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faCcAmex, faCcDiscover, faCcMastercard, faCcVisa, faInstagram, faGoogle, faFacebook, faTwitter, faPinterest, faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
