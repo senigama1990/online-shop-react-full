@@ -97,6 +97,7 @@ ul {
   padding: 12px 55px;
   display: flex;
   align-items: center;
+  position: relative;
 }
 .menuBarWrapper button img {
   display: inline-block;
@@ -656,3 +657,48 @@ ul {
   font-size: 72px;
 }
 /*Footer finish*/
+
+/*Categories DropDown Menu Start*/
+.menuBarWrapper .categoriesDropDown {
+  position: absolute;
+  top: 70px;
+  left: 4.2%;
+}
+.categoriesDropDown >li a {
+  display: inline-block;
+  padding: 15px 15px;
+  border: solid rgba(0, 0, 0, 0.1) 1px;
+  width: 290px;
+  background-color: #fff;
+}
+.categoriesDropDown li a  {
+  text-decoration: none;
+  color: #5e5e5e;
+  transition: background-color, 0.1s ease-in-out;
+}
+.categoriesDropDown li a:hover {
+  background-color: #c0bcbc;
+}
+.categoriesDropDown li a span {
+  display: inline-block;
+  margin-left: 5px;
+}
+.electronics {
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+}
+.electronics:hover .faCaretRight {
+  transform: rotate(90deg);
+}
+.faCaretRight {
+  margin-left: 50%;
+}
+.electronics ul {
+  position: absolute;
+  top: 0;
+  right: -67%;
+}
+.electronics ul li a {
+  width: 200px;
+}
+/*Categories DropDown Menu Finish*/
