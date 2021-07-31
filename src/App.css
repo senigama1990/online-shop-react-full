@@ -661,12 +661,15 @@ ul {
 /*Categories DropDown Menu Start*/
 .menuBarWrapper .categoriesDropDown {
   position: absolute;
-  top: 70px;
-  left: 4.2%;
+  top: 82%;
+  left: 60px;
+}
+.disactive {
+  display: none;
 }
 .categoriesDropDown >li a {
   display: inline-block;
-  padding: 15px 15px;
+  padding: 15px;
   border: solid rgba(0, 0, 0, 0.1) 1px;
   width: 290px;
   background-color: #fff;
@@ -693,12 +696,18 @@ ul {
 .faCaretRight {
   margin-left: 50%;
 }
-.electronics ul {
+.electronics > ul {
   position: absolute;
   top: 0;
-  right: -67%;
+  right: 0;
+  transition: right 0.3s ease-in-out;
+  z-index: -100;
+}
+.electronics:hover .rightMenu {
+  right: -69%;
 }
 .electronics ul li a {
   width: 200px;
 }
+
 /*Categories DropDown Menu Finish*/

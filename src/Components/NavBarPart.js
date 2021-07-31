@@ -6,7 +6,7 @@ import logo from '../imgs/logo-light-removebg-preview.png'
 import menuBar from '../imgs/menubar.png'
 
 
-function NavBarPart() {
+function NavBarPart( {toggle, setToggle}) {
     return (
         <div className='navBarContainer'>
             <dir className='navBarWrapper'>
@@ -59,14 +59,14 @@ function NavBarPart() {
             </dir>
             <div className='navBarDownPart'>
                 <div className='menuBarWrapper'>
-                    <button>
+                    <button onClick={()=> setToggle(!toggle)} type='button'>
                         <img src={menuBar} alt="menuBar" />
                         <span>categoies</span>
                     </button>
 
 
                     {/* DropDown Categories start*/}
-                    <ul className='categoriesDropDown'>
+                    <ul className={toggle ? 'categoriesDropDown' : 'disactive'}>
                         <li>
                             <Link to='#'>
                                 <FontAwesomeIcon icon={faWallet} />
@@ -94,7 +94,7 @@ function NavBarPart() {
                                 <span>Electronics</span>
                                 <FontAwesomeIcon className='faCaretRight' icon={faCaretRight} />
                             </Link>
-                            <ul>
+                            <ul className='rightMenu'>
 
                                 <li>
                                     <Link to='#'>
