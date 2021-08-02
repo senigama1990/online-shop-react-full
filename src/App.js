@@ -18,11 +18,12 @@ import Women from './Pages/Women';
 import Toys from './Pages/Toys'
 import GiftCorners from './Pages/GiftCorners'
 import Sports from './Pages/Sports'
-import Register from './Pages/Register';
+import Register from './Pages/Register/Register';
 import Card from './Pages/Card';
 
 function App() {
   const [toggle, setToggle] = useState(false)
+  const [signupToggle, setSignupToggle] = useState(false)
   return (
     <BrowserRouter>
       <div className="App">
@@ -88,7 +89,7 @@ function App() {
         </Route>
 
         <Route path='/register'>
-          <Register/>
+          <Register signupToggle={signupToggle} setSignupToggle={setSignupToggle}/>
         </Route>
 
         <Route path='/card'>
