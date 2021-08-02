@@ -9,13 +9,18 @@ function Register({ signupToggle, setSignupToggle }) {
             <div className="cont" id={signupToggle ? 's--signup' : ''}>
                 <div className="form sign-in">
                     <h2>Welcome back</h2>
-                    <label htmlFor="">
+                    <select className='signSelect'>
+                        <option selected value="role" disabled>Choose user's role</option>
+                        <option value="seller">Seller</option>
+                        <option value="client">Client</option>
+                    </select>
+                    <label htmlFor="signInEmail">
                         <span>Email</span>
-                        <input type="email" />
+                        <input id='signInEmail' type="email" required />
                     </label>
-                    <label htmlFor="">
+                    <label htmlFor="signInPass">
                         <span>Password</span>
-                        <input type="password" />
+                        <input id='signInPass' type="password" required/>
                     </label>
                     <p className="forgot-pass">Forgot password?</p>
                     <button type='button' className='submit'>Sign In</button>
@@ -38,17 +43,17 @@ function Register({ signupToggle, setSignupToggle }) {
                     </div>
                     <div className="form sign-up">
                         <h2>Time to feel like home</h2>
-                        <label htmlFor="">
+                        <label htmlFor="signUpName">
                             <span>Name</span>
-                            <input type="text" />
+                            <input id='signUpName' type="text" />
                         </label>
-                        <label htmlFor="">
+                        <label htmlFor="signUpEmail">
                             <span>Email</span>
-                            <input type="email" />
+                            <input id='signUpEmail' type="email" />
                         </label>
-                        <label htmlFor="">
+                        <label htmlFor="signUpPass">
                             <span>Password</span>
-                            <input type="password" />
+                            <input id='signUpPass' type="password" />
                         </label>
                         <button type='button' className='submit'>Sign In</button>
                         <button type='button' className='fb-btn'>Connect With <span>Facebook</span> </button>
