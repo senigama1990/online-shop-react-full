@@ -2,7 +2,6 @@ import React from 'react'
 import '../Register/Register.css'
 
 function Register({ signupToggle, setSignupToggle }) {
-    console.log(signupToggle, setSignupToggle)
     return (
         <div className='register'>
             <p class="tip">Click on button in image container</p>
