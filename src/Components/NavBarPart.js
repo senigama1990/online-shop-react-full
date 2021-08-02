@@ -52,8 +52,12 @@ function NavBarPart( {toggle, setToggle}) {
                 </ul>
                 <div className='navIconsWrapper'>
                     <button><FontAwesomeIcon icon={faSearch} /></button>
-                    <button><FontAwesomeIcon icon={faUser} /></button>
-                    <button><FontAwesomeIcon icon={faCartArrowDown} /></button>
+                    <Link to='/register'>
+                        <button><FontAwesomeIcon icon={faUser} /></button>
+                    </Link>
+                    <Link to='/card'>
+                        <button><FontAwesomeIcon icon={faCartArrowDown} /></button>
+                    </Link>
                     <span>$0.00</span>
                 </div>
             </dir>
@@ -68,28 +72,28 @@ function NavBarPart( {toggle, setToggle}) {
                     {/* DropDown Categories start*/}
                     <ul className={toggle ? 'categoriesDropDown' : 'disactive'}>
                         <li>
-                            <Link to='#'>
+                            <Link to='all-categories'>
                                 <FontAwesomeIcon icon={faWallet} />
                                 <span>All Categories</span>
                             </Link>
                         </li>
 
                         <li>
-                            <Link to='#'>
+                            <Link to='/men'>
                                 <FontAwesomeIcon icon={faTshirt} />
                                 <span>Men</span>
                             </Link>
                         </li>
 
                         <li>
-                            <Link to='#'>
+                            <Link to='/women'>
                                 <FontAwesomeIcon icon={faFemale} />
                                 <span>Women</span>
                             </Link>
                         </li>
 
                         <li className='electronics'>
-                            <Link to='#'>
+                            <Link to='/electronics'>
                                 <FontAwesomeIcon icon={faLaptop} />
                                 <span>Electronics</span>
                                 <FontAwesomeIcon className='faCaretRight' icon={faCaretRight} />
@@ -97,28 +101,28 @@ function NavBarPart( {toggle, setToggle}) {
                             <ul className='rightMenu'>
 
                                 <li>
-                                    <Link to='#'>
+                                    <Link to='/mobile-phones'>
                                         <FontAwesomeIcon icon={faMobileAlt} />
                                         <span>Mobile phones</span>
                                     </Link>
                                 </li>
 
                                 <li>
-                                    <Link to='#'>
+                                    <Link to='/computers'>
                                         <FontAwesomeIcon icon={faDesktop} />
                                         <span>Computers</span>
                                     </Link>
                                 </li>
 
                                 <li>
-                                    <Link to='#'>
+                                    <Link to='/smartWatches'>
                                         <FontAwesomeIcon icon={faClock} />
                                         <span>Smart Watches</span>
                                     </Link>
                                 </li>
 
                                 <li>
-                                    <Link to='#'>
+                                    <Link to='/accessories'>
                                         <FontAwesomeIcon icon={faHeadphonesAlt} />
                                         <span>Accessories</span>
                                     </Link>
@@ -128,42 +132,42 @@ function NavBarPart( {toggle, setToggle}) {
                         </li>
 
                         <li>
-                            <Link to='#'>
+                            <Link to='/jewellery'>
                                 <FontAwesomeIcon icon={faGem} />
                                 <span>Jewellery</span>
                             </Link>
                         </li>
 
                         <li>
-                            <Link to='#'>
+                            <Link to='/shoes'>
                                 <FontAwesomeIcon icon={faShoePrints} />
                                 <span>Shoes</span>
                             </Link>
                         </li>
 
                         <li>
-                            <Link to='#'>
+                            <Link to='/kidsWaer'>
                                 <FontAwesomeIcon icon={faBaby} />
                                 <span>Kid's Wear</span>
                             </Link>
                         </li>
 
                         <li>
-                            <Link to='#'>
+                            <Link to='/sports'>
                                 <FontAwesomeIcon icon={faFootballBall} />
                                 <span>Sports</span>
                             </Link>
                         </li>
 
                         <li>
-                            <Link to='#'>
+                            <Link to='/toys'>
                                 <FontAwesomeIcon icon={faCarSide} />
                                 <span>Toys</span>
                             </Link>
                         </li>
 
                         <li>
-                            <Link to='#'>
+                            <Link to='/giftCorners'>
                                 <FontAwesomeIcon icon={faGifts} />
                                 <span>Gift Corners</span>
                             </Link>
